@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Defesa Galáctica</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="home">
+
+<header>
+  <h1>🚀 Defesa Galáctica</h1>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="sobre.html">Sobre</a>
+    <a href="features.html">Features</a>
+    <a href="jogo.html">Jogar</a>
+    <a href="contato.html">Contato</a>
+  </nav>
+</header>
+
+<!-- HERO / BANNER -->
+<section class="hero">
+
+  <img src="Batalha no espaço de Defesa Galáctica.png" class="banner">
+
+  <h2>Defesa Galáctica</h2>
+
+  <p>
+    Enfrente ondas de inimigos, desvie de ataques e sobreviva o máximo possível.
+    Um jogo intenso com ação constante 🚀
+  </p>
+
+  <button onclick="abrirJogo()">🎮 Jogar Agora</button>
+
+</section>
+
+<!-- GALERIA -->
+<section>
+  <h2>📸 Imagens do Jogo</h2>
+
+  <div class="galeria">
+    <img src="11.04.2026_22.52.11_REC.png" onclick="abrirImagem(this)">
+    <img src="11.04.2026_22.52.29_REC.png" onclick="abrirImagem(this)">
+    <img src="Screenshot_1.png" onclick="abrirImagem(this)">
+  </div>
+</section>
+
+<!-- MODAL (ZOOM DAS IMAGENS) -->
+<div id="modal" class="modal" onclick="fecharImagem()">
+  <img id="imgGrande">
+</div>
+
+<!-- FEATURES -->
+<section class="features">
+  <h2>🔥 Destaques</h2>
+
+  <div class="cards">
+    <div class="card">
+      <h3>⚡ Ação Rápida</h3>
+      <p>Gameplay dinâmico com combate constante.</p>
+    </div>
+
+    <div class="card">
+      <h3>📈 Progressão</h3>
+      <p>Dificuldade aumenta conforme você joga.</p>
+    </div>
+
+    <div class="card">
+      <h3>👾 Inimigos</h3>
+      <p>Diferentes desafios ao longo da partida.</p>
+    </div>
+  </div>
+</section>
+
+<!-- SOBRE -->
+<section class="sobre">
+  <h2>🎯 Sobre o Jogo</h2>
+  <p>
+    Defesa Galáctica é um jogo de nave espacial focado em ação e sobrevivência,
+    onde o jogador enfrenta inimigos em um ambiente desafiador e dinâmico.
+  </p>
+</section>
+
+<footer>
+  <p>© 2026 Defesa Galáctica</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
